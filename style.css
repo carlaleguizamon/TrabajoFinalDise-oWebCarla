@@ -1,11 +1,10 @@
 body{
-    background-color: #f2e1f5;
+    background-color: #DEB6AB;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   width: 90vw;
-  
 }
 
 h1{
@@ -14,8 +13,8 @@ h1{
     width: 600;
     height: 100;
   margin-top: 20px;
-  background-color:#164283;
-  color: #5878E2;
+  background-color:#85586F;
+  color: #F8ECD1;
   text-align: center;
   line-height: 100px;
   transition-property: width;
@@ -24,9 +23,9 @@ h1{
   }
 h1:hover{
     font-size: xx-large;
-    color: aqua;
+    color: #F8ECD1;
     transition: 1s linear;
-  box-shadow: 10px 10px 15px 10px #5878E2;
+  box-shadow: 10px 10px 15px 10px #85586F;
 }
 @media screen {
   min-width: 320;
@@ -38,8 +37,8 @@ h1:hover{
   margin-top: 30px;
 }
 .cuadrado{
-  background-color: #f429ed;
-  border: #2d76e4 solid 5px;
+  background-color: #F8ECD1;
+  border: #85586F solid 5px;
   width: 100px;
   height: 100px;
   margin-top: 300px;
@@ -50,47 +49,47 @@ h1:hover{
 }
 @keyframes cuadrado{
   0% {
-    background-color:  #f429ed;
-    border: #2d76e4 solid 5px;
+    background-color:  #F8ECD1;
+    border: #85586F solid 5px;
   }
 
   25% {
-    background-color: rgb(229, 60, 76);
+    background-color: #F8ECD1;
     width: 150px;
     height: 150px;
     transform: rotate(360deg);
-    border: solid 10px rgb(31, 55, 237) solid 5px;
+    border: solid 10px #85586F solid 5px;
     border-radius: 30%;
     margin-top: 250px;
     margin-left: 50px;
     border-radius: 10%;
   }
   50% {
-    background-color: rgb(255, 174, 0);
+    background-color: #DEB6AB;
     width: 200px;
     height: 200px;
     transform: rotate(360deg);
-    border: solid 5px rgb(75, 29, 225);
+    border: solid 5px #85586F ;
     margin-top: 150px;
     margin-left: 300px;
     border-radius: 30%;
   }
  75%{
-    background-color: rgb(140, 255, 0);
+    background-color: #DEB6AB;
     width: 250px;
     height: 250px;
     transform:rotate(360deg);
-    border: solid 5px rgb(66, 28, 189);
+    border: solid 5px #85586F;
     margin-top: 100px;
     margin-left: 450px;
     border-radius: 50%;
   }
   100%{
-    background-clor: rgb(140, 255, 0);
+    background-clor: AC7D88;
     width: 300px;
     height: 300px;
     transform: rotate(360deg);
-    border: solid 5px rgb(66, 28, 189);
+    border: solid 5px #85586F;
     margin-top: 50px;
     margin-left: 600px;
     border-radius: 100%;
@@ -100,15 +99,15 @@ h1:hover{
 @media screen and (max-width:600px){
   @keyframes cuadrado  {
     0% {
-      background-color:  #f429ed;
-      border: #2d76e4 solid 5px;
+      background-color: #F8ECD1;
+      border: #85586F solid 5px;
     }
     25% {
-      background-color: rgb(229, 60, 76);
+      background-color: #F8ECD1;
       width: 150px;
       height: 150px;
       transform: rotate(360deg);
-      border: solid 10px rgb(31, 55, 237) solid 5px;
+      border: solid 10px #85586F solid 5px;
       border-radius: 30%;
       margin-top: 250px;
       margin-left: 50px;
@@ -119,9 +118,9 @@ h1:hover{
       width: 200px;
       height: 200px;
       transform: rotate(360deg);
-      border: solid 5px rgb(75, 29, 225);
+      border: solid 5px #85586F;
       margin-top: 150px;
-      margin-left: 100px;
+      margin-left: 80px;
       border-radius: 30%;
     }
    75%{
@@ -129,28 +128,28 @@ h1:hover{
       width: 250px;
       height: 250px;
       transform:rotate(360deg);
-      border: solid 5px rgb(66, 28, 189);
-      margin-top: 100px;
-      margin-left: 130px;
+      border: solid 5px #85586F;
+      margin-top: 90px;
+      margin-left: 110px;
       border-radius: 50%;
     }
     100%{
-      background-clor: rgb(140, 255, 0);
+      background-clor: rgb(232, 143, 201);
       width: 300px;
       height: 300px;
       transform: rotate(360deg);
-      border: solid 5px rgb(66, 28, 189);
-      margin-top: 50px;
-      margin-left: 150px;
+      border: solid 5px #85586F;
+      margin-top: 40px;
+      margin-left: 100px;
       border-radius: 100%;
     } 
 }
   
   }
 h2{
-  background-color: #adccfd;
+  background-color:#F8ECD1 ;
   font-size: x-large;
-  color: #164283;
+  color:  #85586F;
   text-align: center;
   margin-top: 50px;
   line-height: 100px;
