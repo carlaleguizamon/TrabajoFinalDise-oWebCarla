@@ -8,9 +8,9 @@ body {
 }
 header ul {
   display: flex;
-flex-direction: column-reverse;
-  align-items: flex-end;
-  color: #f8ecd1;
+justify-content: space-around;
+background-color: #f3d4d4;
+  
   font-size: large;
   margin-top: 20px;
   padding: 10px;
@@ -73,14 +73,12 @@ h2:hover {
   transition: 1s linear;
   box-shadow: 10px 10px 15px 10px #85586f;
 }
-
 h3{
   color: #ea728c;
   margin-top: 10px;
   display: flex;
   text-align: center;
   font-size:  x-large;
-
 }
 h4{
   display: flex;
@@ -356,8 +354,6 @@ article img{
  align-items: stretch;
 
 }
-
-
 .ocu1 {
   width: 400px;
   height: 100px;
@@ -396,7 +392,6 @@ article img{
   transition: 2s ease;
   font-size: xx-large;
 }
-
 .ocu3 {
   width: 400px;
   height: 100px;
@@ -416,7 +411,6 @@ article img{
   transition: 2s ease;
   font-size: xx-large;
 }
-
 .ocu4 {
   width: 400px;
   height: 100px;
@@ -436,7 +430,6 @@ article img{
   transition: 2s ease;
   font-size: xx-large;
 }
-
 @media screen and (min-width: 1024px) {
   .ocu1 {
     width: 1000px;
@@ -476,7 +469,6 @@ article img{
     transition: 2s ease;
     font-size: xx-large;
   }
-
   .ocu3 {
     width: 1000px;
     height: 100px;
@@ -496,7 +488,6 @@ article img{
     transition: 2s ease;
     font-size: xx-large;
   }
-
   .ocu4 {
     width: 1000px;
     height: 100px;
@@ -517,8 +508,6 @@ article img{
     font-size: xx-large;
   }
 }
-
-
 @media screen and (max-width: 600px){
 iframe{
   max-width: 430px;
@@ -528,14 +517,18 @@ iframe{
   justify-content: center;
 }
 }
-@media screen and (max-width: 1000){
+@media screen and (min-width: 1000){
   iframe{
   max-width: 900px;
   max-height: 500px;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
+    
   }
+}
+th img{
+  border-radius: 50%;
 }
 
 
